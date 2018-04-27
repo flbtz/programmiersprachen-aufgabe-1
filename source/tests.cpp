@@ -134,3 +134,19 @@ TEST_CASE ("describe_factorial","[factorial]")
     REQUIRE(factorial(10)==3628800);
     REQUIRE(factorial(6)==720);
 }
+
+//Aufgabe 1.14
+int binomial(int const& n, int const& k)
+{
+    int divident = factorial(n);
+    std::cout<<divident;
+    int divisor = factorial(k)*factorial(n-k);
+    std::cout<<"Divisor: "+divisor;
+
+    return divident/divisor;
+}
+
+TEST_CASE ("describe_binomial","[binomial]")
+{
+    REQUIRE(binomial(10,6)==210);
+}

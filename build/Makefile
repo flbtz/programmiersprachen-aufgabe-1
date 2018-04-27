@@ -150,6 +150,19 @@ aufgabe1_12/fast:
 .PHONY : aufgabe1_12/fast
 
 #=============================================================================
+# Target rules for targets named aufgabe1_3
+
+# Build rule for target.
+aufgabe1_3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 aufgabe1_3
+.PHONY : aufgabe1_3
+
+# fast build rule for target.
+aufgabe1_3/fast:
+	$(MAKE) -f source/CMakeFiles/aufgabe1_3.dir/build.make source/CMakeFiles/aufgabe1_3.dir/build
+.PHONY : aufgabe1_3/fast
+
+#=============================================================================
 # Target rules for targets named aufgabe1_10
 
 # Build rule for target.
@@ -189,19 +202,6 @@ aufgabe1_8/fast:
 .PHONY : aufgabe1_8/fast
 
 #=============================================================================
-# Target rules for targets named aufgabe1_3
-
-# Build rule for target.
-aufgabe1_3: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 aufgabe1_3
-.PHONY : aufgabe1_3
-
-# fast build rule for target.
-aufgabe1_3/fast:
-	$(MAKE) -f source/CMakeFiles/aufgabe1_3.dir/build.make source/CMakeFiles/aufgabe1_3.dir/build
-.PHONY : aufgabe1_3/fast
-
-#=============================================================================
 # Target rules for targets named aufgabe1_9
 
 # Build rule for target.
@@ -213,6 +213,19 @@ aufgabe1_9: cmake_check_build_system
 aufgabe1_9/fast:
 	$(MAKE) -f source/CMakeFiles/aufgabe1_9.dir/build.make source/CMakeFiles/aufgabe1_9.dir/build
 .PHONY : aufgabe1_9/fast
+
+#=============================================================================
+# Target rules for targets named aufgabe1_14
+
+# Build rule for target.
+aufgabe1_14: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 aufgabe1_14
+.PHONY : aufgabe1_14
+
+# fast build rule for target.
+aufgabe1_14/fast:
+	$(MAKE) -f source/CMakeFiles/aufgabe1_14.dir/build.make source/CMakeFiles/aufgabe1_14.dir/build
+.PHONY : aufgabe1_14/fast
 
 #=============================================================================
 # Target rules for targets named helloworld
@@ -238,11 +251,12 @@ help:
 	@echo "... aufgabe1_13"
 	@echo "... aufgabe1_11"
 	@echo "... aufgabe1_12"
+	@echo "... aufgabe1_3"
 	@echo "... aufgabe1_10"
 	@echo "... tests"
 	@echo "... aufgabe1_8"
-	@echo "... aufgabe1_3"
 	@echo "... aufgabe1_9"
+	@echo "... aufgabe1_14"
 	@echo "... helloworld"
 .PHONY : help
 
