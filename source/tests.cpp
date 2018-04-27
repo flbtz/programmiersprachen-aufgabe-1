@@ -112,3 +112,25 @@ TEST_CASE ("describe_surfaceCylinder","[surfaceCylinder]")
 {
     REQUIRE(surfaceCylinder(3.0f,6.0f)==169.6460032938f);
 }
+
+//Aufgabe 1.13
+int prod = 1;
+
+int factorial(int const& a){
+
+    if(a-1==0){
+        int ergebnis = prod;
+        prod = 1;
+        return ergebnis;
+    }
+
+    prod = prod * a;
+
+    return factorial(a-1);
+}
+
+TEST_CASE ("describe_factorial","[factorial]")
+{
+    REQUIRE(factorial(10)==3628800);
+    REQUIRE(factorial(6)==720);
+}

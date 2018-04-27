@@ -29,22 +29,8 @@
       <change beforePath="$PROJECT_DIR$/build/source/CMakeFiles/tests.dir/tests.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/source/CMakeFiles/tests.dir/tests.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/source/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/source/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/source/tests" beforeDir="false" afterPath="$PROJECT_DIR$/build/source/tests" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Aufgabenblatt1.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Aufgabenblatt1.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/source/CMakeFiles/aufgabe1_3.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/source/CMakeFiles/aufgabe1_3.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/source/CMakeFiles/aufgabe1_8.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/source/CMakeFiles/aufgabe1_8.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/source/CMakeFiles/aufgabe1_9.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/source/CMakeFiles/aufgabe1_9.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/source/CMakeFiles/helloworld.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/source/CMakeFiles/helloworld.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/source/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/source/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/source/CMakeFiles/tests.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/source/CMakeFiles/tests.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/source/CMakeFiles/tests.dir/tests.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/source/CMakeFiles/tests.dir/tests.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/source/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/source/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/source/tests" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/source/tests" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/Aufgabe1_11.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/Aufgabe1_11.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/source/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/source/tests.cpp" afterDir="false" />
     </list>
@@ -62,8 +48,8 @@
       <file leaf-file-name="tests.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/tests.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="102" column="27" selection-start-line="102" selection-start-column="27" selection-end-line="102" selection-end-column="27" />
+            <state relative-caret-position="74">
+              <caret line="116" selection-start-line="116" selection-end-line="129" selection-end-column="1" />
               <folding>
                 <element signature="e#29#50#0" expanded="true" />
               </folding>
@@ -71,14 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Aufgabe1_12.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/source/Aufgabe1_12.cpp">
+      <file leaf-file-name="Aufgabe1_13.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/Aufgabe1_13.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="165">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -95,8 +78,8 @@
       <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="165">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -124,9 +107,10 @@
         <option value="$PROJECT_DIR$/source/Aufgabe1_8.cpp" />
         <option value="$PROJECT_DIR$/source/Aufgabe1_10.cpp" />
         <option value="$PROJECT_DIR$/source/Aufgabe1_11.cpp" />
-        <option value="$PROJECT_DIR$/source/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/source/tests.cpp" />
         <option value="$PROJECT_DIR$/source/Aufgabe1_12.cpp" />
+        <option value="$PROJECT_DIR$/source/tests.cpp" />
+        <option value="$PROJECT_DIR$/source/Aufgabe1_13.cpp" />
+        <option value="$PROJECT_DIR$/source/CMakeLists.txt" />
       </list>
     </option>
   </component>
@@ -233,14 +217,11 @@
       <workItem from="1524835989502" duration="721000" />
       <workItem from="1524836744620" duration="228000" />
       <workItem from="1524837375606" duration="331000" />
-      <workItem from="1524837758174" duration="4726000" />
+      <workItem from="1524837758174" duration="5253000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_tests_cpp - 2018.04.27 at 15h 07m 15s.xml">
-      <configuration name="All in tests.cpp" configurationId="CMakeCatchTestRunConfigurationType" />
-    </history-entry>
     <history-entry file="All_in_tests_cpp - 2018.04.27 at 15h 07m 40s.xml">
       <configuration name="All in tests.cpp" configurationId="CMakeCatchTestRunConfigurationType" />
     </history-entry>
@@ -268,9 +249,12 @@
     <history-entry file="All_in_tests_cpp - 2018.04.27 at 17h 12m 21s.xml">
       <configuration name="All in tests.cpp" configurationId="CMakeCatchTestRunConfigurationType" />
     </history-entry>
+    <history-entry file="All_in_tests_cpp - 2018.04.27 at 17h 30m 15s.xml">
+      <configuration name="All in tests.cpp" configurationId="CMakeCatchTestRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11581000" />
+    <option name="totallyTimeSpent" value="12108000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="9" y="23" width="1260" height="772" extended-state="0" />
@@ -610,30 +594,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/source/Aufgabe1_12.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="-153">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/tests.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="102" column="27" selection-start-line="102" selection-start-column="27" selection-end-line="102" selection-end-column="27" />
+        <state relative-caret-position="74">
+          <caret line="116" selection-start-line="116" selection-end-line="129" selection-end-column="1" />
           <folding>
             <element signature="e#29#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/Aufgabe1_12.cpp">
+    <entry file="file://$PROJECT_DIR$/source/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/Aufgabe1_13.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
