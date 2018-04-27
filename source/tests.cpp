@@ -80,3 +80,35 @@ TEST_CASE ("describe_sumMultiples","[sumMultiples]")
 }
 
 //Aufgabe 1.11
+float fract(float const& a){
+    int temp = a;
+    return a-temp;
+}
+
+TEST_CASE ("describe_fract","[fract]")
+{
+    REQUIRE(fract(2.478)==Approx(0.478));
+}
+
+//Aufgabe 1.12
+float volumeCylinder(float const& radius, float const& height){
+
+    return M_PI*radius*radius*height;
+}
+
+float surfaceCylinder(float radius, float height){
+
+    float circle = M_PI*radius*radius;
+    float body = 2*M_PI*radius*height;
+    return (2*circle)+body;
+}
+
+TEST_CASE ("describe_volumeCylinder","[volumeCylinder]")
+{
+    REQUIRE(volumeCylinder(3.0f,6.0f)==169.6460032938f);
+}
+
+TEST_CASE ("describe_surfaceCylinder","[surfaceCylinder]")
+{
+    REQUIRE(surfaceCylinder(3.0f,6.0f)==169.6460032938f);
+}
