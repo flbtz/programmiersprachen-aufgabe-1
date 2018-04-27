@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named aufgabe1_10
+
+# Build rule for target.
+aufgabe1_10: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 aufgabe1_10
+.PHONY : aufgabe1_10
+
+# fast build rule for target.
+aufgabe1_10/fast:
+	$(MAKE) -f source/CMakeFiles/aufgabe1_10.dir/build.make source/CMakeFiles/aufgabe1_10.dir/build
+.PHONY : aufgabe1_10/fast
+
+#=============================================================================
 # Target rules for targets named tests
 
 # Build rule for target.
@@ -122,6 +135,45 @@ tests: cmake_check_build_system
 tests/fast:
 	$(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/build
 .PHONY : tests/fast
+
+#=============================================================================
+# Target rules for targets named aufgabe1_8
+
+# Build rule for target.
+aufgabe1_8: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 aufgabe1_8
+.PHONY : aufgabe1_8
+
+# fast build rule for target.
+aufgabe1_8/fast:
+	$(MAKE) -f source/CMakeFiles/aufgabe1_8.dir/build.make source/CMakeFiles/aufgabe1_8.dir/build
+.PHONY : aufgabe1_8/fast
+
+#=============================================================================
+# Target rules for targets named aufgabe1_3
+
+# Build rule for target.
+aufgabe1_3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 aufgabe1_3
+.PHONY : aufgabe1_3
+
+# fast build rule for target.
+aufgabe1_3/fast:
+	$(MAKE) -f source/CMakeFiles/aufgabe1_3.dir/build.make source/CMakeFiles/aufgabe1_3.dir/build
+.PHONY : aufgabe1_3/fast
+
+#=============================================================================
+# Target rules for targets named aufgabe1_9
+
+# Build rule for target.
+aufgabe1_9: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 aufgabe1_9
+.PHONY : aufgabe1_9
+
+# fast build rule for target.
+aufgabe1_9/fast:
+	$(MAKE) -f source/CMakeFiles/aufgabe1_9.dir/build.make source/CMakeFiles/aufgabe1_9.dir/build
+.PHONY : aufgabe1_9/fast
 
 #=============================================================================
 # Target rules for targets named helloworld
@@ -144,7 +196,11 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... aufgabe1_10"
 	@echo "... tests"
+	@echo "... aufgabe1_8"
+	@echo "... aufgabe1_3"
+	@echo "... aufgabe1_9"
 	@echo "... helloworld"
 .PHONY : help
 

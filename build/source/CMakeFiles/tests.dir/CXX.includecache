@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-../external/catch-1.4.0/catch.hpp
+/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabe-1/source/catch.hpp
 sstream
 -
 stdexcept
@@ -180,7 +180,7 @@ algorithm
 map
 -
 Foundation/Foundation.h
-../external/catch-1.4.0/Foundation/Foundation.h
+/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabe-1/source/Foundation/Foundation.h
 ostream
 -
 stdexcept
@@ -238,5 +238,9 @@ assert.h
 
 /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabe-1/source/tests.cpp
 catch.hpp
+/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabe-1/source/catch.hpp
+cmath
+-
+string
 -
 

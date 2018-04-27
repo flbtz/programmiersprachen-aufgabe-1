@@ -111,6 +111,36 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+source/CMakeFiles/tests.dir/rule:
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabe-1/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/tests.dir/rule
+.PHONY : source/CMakeFiles/tests.dir/rule
+
+# Convenience name for target.
+tests: source/CMakeFiles/tests.dir/rule
+
+.PHONY : tests
+
+# fast build rule for target.
+tests/fast:
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabe-1/cmake-build-debug && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/build
+.PHONY : tests/fast
+
+# Convenience name for target.
+source/CMakeFiles/aufgabe1_8.dir/rule:
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabe-1/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe1_8.dir/rule
+.PHONY : source/CMakeFiles/aufgabe1_8.dir/rule
+
+# Convenience name for target.
+aufgabe1_8: source/CMakeFiles/aufgabe1_8.dir/rule
+
+.PHONY : aufgabe1_8
+
+# fast build rule for target.
+aufgabe1_8/fast:
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabe-1/cmake-build-debug && $(MAKE) -f source/CMakeFiles/aufgabe1_8.dir/build.make source/CMakeFiles/aufgabe1_8.dir/build
+.PHONY : aufgabe1_8/fast
+
+# Convenience name for target.
 source/CMakeFiles/aufgabe1_3.dir/rule:
 	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabe-1/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe1_3.dir/rule
 .PHONY : source/CMakeFiles/aufgabe1_3.dir/rule
@@ -126,19 +156,19 @@ aufgabe1_3/fast:
 .PHONY : aufgabe1_3/fast
 
 # Convenience name for target.
-source/CMakeFiles/tests.dir/rule:
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabe-1/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/tests.dir/rule
-.PHONY : source/CMakeFiles/tests.dir/rule
+source/CMakeFiles/aufgabe1_9.dir/rule:
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabe-1/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe1_9.dir/rule
+.PHONY : source/CMakeFiles/aufgabe1_9.dir/rule
 
 # Convenience name for target.
-tests: source/CMakeFiles/tests.dir/rule
+aufgabe1_9: source/CMakeFiles/aufgabe1_9.dir/rule
 
-.PHONY : tests
+.PHONY : aufgabe1_9
 
 # fast build rule for target.
-tests/fast:
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabe-1/cmake-build-debug && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/build
-.PHONY : tests/fast
+aufgabe1_9/fast:
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabe-1/cmake-build-debug && $(MAKE) -f source/CMakeFiles/aufgabe1_9.dir/build.make source/CMakeFiles/aufgabe1_9.dir/build
+.PHONY : aufgabe1_9/fast
 
 # Convenience name for target.
 source/CMakeFiles/helloworld.dir/rule:
@@ -181,6 +211,60 @@ Aufgabe1_3.s: Aufgabe1_3.cpp.s
 Aufgabe1_3.cpp.s:
 	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabe-1/cmake-build-debug && $(MAKE) -f source/CMakeFiles/aufgabe1_3.dir/build.make source/CMakeFiles/aufgabe1_3.dir/Aufgabe1_3.cpp.s
 .PHONY : Aufgabe1_3.cpp.s
+
+Aufgabe1_8.o: Aufgabe1_8.cpp.o
+
+.PHONY : Aufgabe1_8.o
+
+# target to build an object file
+Aufgabe1_8.cpp.o:
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabe-1/cmake-build-debug && $(MAKE) -f source/CMakeFiles/aufgabe1_8.dir/build.make source/CMakeFiles/aufgabe1_8.dir/Aufgabe1_8.cpp.o
+.PHONY : Aufgabe1_8.cpp.o
+
+Aufgabe1_8.i: Aufgabe1_8.cpp.i
+
+.PHONY : Aufgabe1_8.i
+
+# target to preprocess a source file
+Aufgabe1_8.cpp.i:
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabe-1/cmake-build-debug && $(MAKE) -f source/CMakeFiles/aufgabe1_8.dir/build.make source/CMakeFiles/aufgabe1_8.dir/Aufgabe1_8.cpp.i
+.PHONY : Aufgabe1_8.cpp.i
+
+Aufgabe1_8.s: Aufgabe1_8.cpp.s
+
+.PHONY : Aufgabe1_8.s
+
+# target to generate assembly for a file
+Aufgabe1_8.cpp.s:
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabe-1/cmake-build-debug && $(MAKE) -f source/CMakeFiles/aufgabe1_8.dir/build.make source/CMakeFiles/aufgabe1_8.dir/Aufgabe1_8.cpp.s
+.PHONY : Aufgabe1_8.cpp.s
+
+Aufgabe1_9.o: Aufgabe1_9.cpp.o
+
+.PHONY : Aufgabe1_9.o
+
+# target to build an object file
+Aufgabe1_9.cpp.o:
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabe-1/cmake-build-debug && $(MAKE) -f source/CMakeFiles/aufgabe1_9.dir/build.make source/CMakeFiles/aufgabe1_9.dir/Aufgabe1_9.cpp.o
+.PHONY : Aufgabe1_9.cpp.o
+
+Aufgabe1_9.i: Aufgabe1_9.cpp.i
+
+.PHONY : Aufgabe1_9.i
+
+# target to preprocess a source file
+Aufgabe1_9.cpp.i:
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabe-1/cmake-build-debug && $(MAKE) -f source/CMakeFiles/aufgabe1_9.dir/build.make source/CMakeFiles/aufgabe1_9.dir/Aufgabe1_9.cpp.i
+.PHONY : Aufgabe1_9.cpp.i
+
+Aufgabe1_9.s: Aufgabe1_9.cpp.s
+
+.PHONY : Aufgabe1_9.s
+
+# target to generate assembly for a file
+Aufgabe1_9.cpp.s:
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabe-1/cmake-build-debug && $(MAKE) -f source/CMakeFiles/aufgabe1_9.dir/build.make source/CMakeFiles/aufgabe1_9.dir/Aufgabe1_9.cpp.s
+.PHONY : Aufgabe1_9.cpp.s
 
 helloworld.o: helloworld.cpp.o
 
@@ -244,12 +328,20 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... aufgabe1_3"
 	@echo "... tests"
+	@echo "... aufgabe1_8"
+	@echo "... aufgabe1_3"
+	@echo "... aufgabe1_9"
 	@echo "... helloworld"
 	@echo "... Aufgabe1_3.o"
 	@echo "... Aufgabe1_3.i"
 	@echo "... Aufgabe1_3.s"
+	@echo "... Aufgabe1_8.o"
+	@echo "... Aufgabe1_8.i"
+	@echo "... Aufgabe1_8.s"
+	@echo "... Aufgabe1_9.o"
+	@echo "... Aufgabe1_9.i"
+	@echo "... Aufgabe1_9.s"
 	@echo "... helloworld.o"
 	@echo "... helloworld.i"
 	@echo "... helloworld.s"
