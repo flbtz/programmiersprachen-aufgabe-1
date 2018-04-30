@@ -52,6 +52,7 @@ TEST_CASE ("describe_checksum", "[checksum]"){
     REQUIRE(checksum(5)==5);
     REQUIRE(checksum(123)==6);
     REQUIRE(checksum(2971)==19);
+    REQUIRE(checksum(11378)==20);
 }
 
 //Aufgabe 1.10
@@ -72,6 +73,7 @@ TEST_CASE ("describe_sumMultiples","[sumMultiples]")
 {
     REQUIRE(sumMultiples(20)==98);
     REQUIRE(sumMultiples(1000)==234168);
+
 }
 
 //Aufgabe 1.11
@@ -83,6 +85,8 @@ float fract(float const& a){
 TEST_CASE ("describe_fract","[fract]")
 {
     REQUIRE(fract(2.478)==Approx(0.478));
+    REQUIRE(fract(15.1589)==Approx(0.1589));
+    REQUIRE(fract(1.0456321)==Approx(0.0456321));
 }
 
 //Aufgabe 1.12
