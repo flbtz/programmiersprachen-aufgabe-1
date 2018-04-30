@@ -54,11 +54,6 @@ TEST_CASE ("describe_checksum", "[checksum]"){
     REQUIRE(checksum(2971)==19);
 }
 
-int main (int argc , char * argv [])
-{
-    return Catch :: Session (). run( argc , argv );
-}
-
 //Aufgabe 1.10
 int sumMultiples(int const& a){
 
@@ -141,7 +136,7 @@ int binomial(int const& n, int const& k)
     int divident = factorial(n);
     std::cout<<divident;
     int divisor = factorial(k)*factorial(n-k);
-    std::cout<<"Divisor: "+divisor;
+    std::cout<<divisor;
 
     return divident/divisor;
 }
@@ -149,4 +144,31 @@ int binomial(int const& n, int const& k)
 TEST_CASE ("describe_binomial","[binomial]")
 {
     REQUIRE(binomial(10,6)==210);
+}
+
+//Aufgabe 1.15
+bool is_prime(int const& x){
+
+    if(x<=2){
+        return (x == 2);
+    }
+    for(long i = 2; i<x; i++)
+    {
+        if(x % i == 0){
+            return false;
+        }
+    }
+    return true;
+}
+
+TEST_CASE ("describe_is_prime","[is_prime]")
+{
+    REQUIRE(is_prime(5));
+    REQUIRE(!is_prime(15));
+    REQUIRE(!is_prime(561));
+}
+
+int main(int argc, char* argv[])
+{
+    return Catch::Session().run(argc, argv);
 }
