@@ -168,6 +168,20 @@ TEST_CASE ("describe_is_prime","[is_prime]")
     REQUIRE(!is_prime(561));
 }
 
+//Aufgabe 1.16
+
+double mileToKilometer(double const& mile){
+
+    return mile/0.62137f;
+
+}
+
+TEST_CASE ("describe_mileToKilometer","[mileToKilometer]")
+{
+    REQUIRE(mileToKilometer(3.0)==Approx(4.828041));
+    REQUIRE(mileToKilometer(20.5)==Approx(32.99162));
+}
+
 int main(int argc, char* argv[])
 {
     return Catch::Session().run(argc, argv);

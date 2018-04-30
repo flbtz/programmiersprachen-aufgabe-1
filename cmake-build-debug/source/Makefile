@@ -111,6 +111,51 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+source/CMakeFiles/mileToKilometer.dir/rule:
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabe-1/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/mileToKilometer.dir/rule
+.PHONY : source/CMakeFiles/mileToKilometer.dir/rule
+
+# Convenience name for target.
+mileToKilometer: source/CMakeFiles/mileToKilometer.dir/rule
+
+.PHONY : mileToKilometer
+
+# fast build rule for target.
+mileToKilometer/fast:
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabe-1/cmake-build-debug && $(MAKE) -f source/CMakeFiles/mileToKilometer.dir/build.make source/CMakeFiles/mileToKilometer.dir/build
+.PHONY : mileToKilometer/fast
+
+# Convenience name for target.
+source/CMakeFiles/aufgabe1_14.dir/rule:
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabe-1/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe1_14.dir/rule
+.PHONY : source/CMakeFiles/aufgabe1_14.dir/rule
+
+# Convenience name for target.
+aufgabe1_14: source/CMakeFiles/aufgabe1_14.dir/rule
+
+.PHONY : aufgabe1_14
+
+# fast build rule for target.
+aufgabe1_14/fast:
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabe-1/cmake-build-debug && $(MAKE) -f source/CMakeFiles/aufgabe1_14.dir/build.make source/CMakeFiles/aufgabe1_14.dir/build
+.PHONY : aufgabe1_14/fast
+
+# Convenience name for target.
+source/CMakeFiles/aufgabe1_15.dir/rule:
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabe-1/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe1_15.dir/rule
+.PHONY : source/CMakeFiles/aufgabe1_15.dir/rule
+
+# Convenience name for target.
+aufgabe1_15: source/CMakeFiles/aufgabe1_15.dir/rule
+
+.PHONY : aufgabe1_15
+
+# fast build rule for target.
+aufgabe1_15/fast:
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabe-1/cmake-build-debug && $(MAKE) -f source/CMakeFiles/aufgabe1_15.dir/build.make source/CMakeFiles/aufgabe1_15.dir/build
+.PHONY : aufgabe1_15/fast
+
+# Convenience name for target.
 source/CMakeFiles/aufgabe1_13.dir/rule:
 	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabe-1/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe1_13.dir/rule
 .PHONY : source/CMakeFiles/aufgabe1_13.dir/rule
@@ -229,21 +274,6 @@ aufgabe1_9: source/CMakeFiles/aufgabe1_9.dir/rule
 aufgabe1_9/fast:
 	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabe-1/cmake-build-debug && $(MAKE) -f source/CMakeFiles/aufgabe1_9.dir/build.make source/CMakeFiles/aufgabe1_9.dir/build
 .PHONY : aufgabe1_9/fast
-
-# Convenience name for target.
-source/CMakeFiles/aufgabe1_14.dir/rule:
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabe-1/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe1_14.dir/rule
-.PHONY : source/CMakeFiles/aufgabe1_14.dir/rule
-
-# Convenience name for target.
-aufgabe1_14: source/CMakeFiles/aufgabe1_14.dir/rule
-
-.PHONY : aufgabe1_14
-
-# fast build rule for target.
-aufgabe1_14/fast:
-	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabe-1/cmake-build-debug && $(MAKE) -f source/CMakeFiles/aufgabe1_14.dir/build.make source/CMakeFiles/aufgabe1_14.dir/build
-.PHONY : aufgabe1_14/fast
 
 # Convenience name for target.
 source/CMakeFiles/helloworld.dir/rule:
@@ -395,6 +425,33 @@ Aufgabe1_14.cpp.s:
 	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabe-1/cmake-build-debug && $(MAKE) -f source/CMakeFiles/aufgabe1_14.dir/build.make source/CMakeFiles/aufgabe1_14.dir/Aufgabe1_14.cpp.s
 .PHONY : Aufgabe1_14.cpp.s
 
+Aufgabe1_15.o: Aufgabe1_15.cpp.o
+
+.PHONY : Aufgabe1_15.o
+
+# target to build an object file
+Aufgabe1_15.cpp.o:
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabe-1/cmake-build-debug && $(MAKE) -f source/CMakeFiles/aufgabe1_15.dir/build.make source/CMakeFiles/aufgabe1_15.dir/Aufgabe1_15.cpp.o
+.PHONY : Aufgabe1_15.cpp.o
+
+Aufgabe1_15.i: Aufgabe1_15.cpp.i
+
+.PHONY : Aufgabe1_15.i
+
+# target to preprocess a source file
+Aufgabe1_15.cpp.i:
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabe-1/cmake-build-debug && $(MAKE) -f source/CMakeFiles/aufgabe1_15.dir/build.make source/CMakeFiles/aufgabe1_15.dir/Aufgabe1_15.cpp.i
+.PHONY : Aufgabe1_15.cpp.i
+
+Aufgabe1_15.s: Aufgabe1_15.cpp.s
+
+.PHONY : Aufgabe1_15.s
+
+# target to generate assembly for a file
+Aufgabe1_15.cpp.s:
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabe-1/cmake-build-debug && $(MAKE) -f source/CMakeFiles/aufgabe1_15.dir/build.make source/CMakeFiles/aufgabe1_15.dir/Aufgabe1_15.cpp.s
+.PHONY : Aufgabe1_15.cpp.s
+
 Aufgabe1_3.o: Aufgabe1_3.cpp.o
 
 .PHONY : Aufgabe1_3.o
@@ -503,6 +560,33 @@ helloworld.cpp.s:
 	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabe-1/cmake-build-debug && $(MAKE) -f source/CMakeFiles/helloworld.dir/build.make source/CMakeFiles/helloworld.dir/helloworld.cpp.s
 .PHONY : helloworld.cpp.s
 
+mileToKilometer.o: mileToKilometer.cpp.o
+
+.PHONY : mileToKilometer.o
+
+# target to build an object file
+mileToKilometer.cpp.o:
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabe-1/cmake-build-debug && $(MAKE) -f source/CMakeFiles/mileToKilometer.dir/build.make source/CMakeFiles/mileToKilometer.dir/mileToKilometer.cpp.o
+.PHONY : mileToKilometer.cpp.o
+
+mileToKilometer.i: mileToKilometer.cpp.i
+
+.PHONY : mileToKilometer.i
+
+# target to preprocess a source file
+mileToKilometer.cpp.i:
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabe-1/cmake-build-debug && $(MAKE) -f source/CMakeFiles/mileToKilometer.dir/build.make source/CMakeFiles/mileToKilometer.dir/mileToKilometer.cpp.i
+.PHONY : mileToKilometer.cpp.i
+
+mileToKilometer.s: mileToKilometer.cpp.s
+
+.PHONY : mileToKilometer.s
+
+# target to generate assembly for a file
+mileToKilometer.cpp.s:
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabe-1/cmake-build-debug && $(MAKE) -f source/CMakeFiles/mileToKilometer.dir/build.make source/CMakeFiles/mileToKilometer.dir/mileToKilometer.cpp.s
+.PHONY : mileToKilometer.cpp.s
+
 tests.o: tests.cpp.o
 
 .PHONY : tests.o
@@ -537,6 +621,9 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... mileToKilometer"
+	@echo "... aufgabe1_14"
+	@echo "... aufgabe1_15"
 	@echo "... edit_cache"
 	@echo "... aufgabe1_13"
 	@echo "... aufgabe1_11"
@@ -546,7 +633,6 @@ help:
 	@echo "... tests"
 	@echo "... aufgabe1_8"
 	@echo "... aufgabe1_9"
-	@echo "... aufgabe1_14"
 	@echo "... helloworld"
 	@echo "... Aufgabe1_10.o"
 	@echo "... Aufgabe1_10.i"
@@ -563,6 +649,9 @@ help:
 	@echo "... Aufgabe1_14.o"
 	@echo "... Aufgabe1_14.i"
 	@echo "... Aufgabe1_14.s"
+	@echo "... Aufgabe1_15.o"
+	@echo "... Aufgabe1_15.i"
+	@echo "... Aufgabe1_15.s"
 	@echo "... Aufgabe1_3.o"
 	@echo "... Aufgabe1_3.i"
 	@echo "... Aufgabe1_3.s"
@@ -575,6 +664,9 @@ help:
 	@echo "... helloworld.o"
 	@echo "... helloworld.i"
 	@echo "... helloworld.s"
+	@echo "... mileToKilometer.o"
+	@echo "... mileToKilometer.i"
+	@echo "... mileToKilometer.s"
 	@echo "... tests.o"
 	@echo "... tests.i"
 	@echo "... tests.s"
